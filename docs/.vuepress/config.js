@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Welcome to my castle in the sky',
+  title: 'Laputa',
   description: 'A blog about python, vue and linux.',
   evergreen: true,
   themeConfig: {
