@@ -1,0 +1,18 @@
+install:
+  - yarn add
+
+script:
+  - yarn build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $github_token
+  keep-history: true
+  local-dir: docs/.vuepress/dist
+  repo: zhcHoward/zhcHoward.github.io
+  target-branch: master
+  committer-from-gh: true
+  verbose: true
+  on:
+    branch: master
