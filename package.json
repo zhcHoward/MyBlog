@@ -1,9 +1,11 @@
 {
-  "devDependencies": {
-    "vuepress": "^0.14.8"
-  },
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "markdown-it-math": "^4.1.0",
+    "moment": "^2.23.0",
+    "vuepress": "^1.0.0-alpha.30"
   }
 }

@@ -1,4 +1,4 @@
-# What is this?
+# What is this? [![Build Status](https://travis-ci.com/zhcHoward/MyBlog.svg?branch=master)](https://travis-ci.com/zhcHoward/MyBlog)
 
 This is the project of my personal blog build on [vuepress](https://vuepress.vuejs.org/).
 
@@ -10,6 +10,4 @@ After I commit changes to this repo, [Travis CI](https://travis-ci.com/) will au
 
 - [ ] Change layout of index page.
 - [ ] Customize theme.
-- [ ] Use code to automaticly generate items in navbar instead of manully modifing it.
-- [ ] Write custome components for more markdown tags, e.g. `$$`.
-
+- [ ] Automaticly generate items in navbar instead of manually modifing it.

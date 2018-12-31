@@ -136,19 +136,18 @@ In [64]: dis.dis(e)
              10 RETURN_VALUE
 ```
 
-From output above, we can conclude that to concatenate $$N$$ strings, the total number of operations for `str.join` is 
+From output above, we can conclude that to concatenate $N$ strings, the total number of operations for `str.join` is 
 
 $$
 N + 5
 $$
-
 but for `+` is
 
 $$
 N + (N-1) + 1 => 2N
 $$
 
-When $$N$$ is less than 5, `+` will be faster than `str.join()`. However, once $$N$$ is larger than 5, `str.join()` become more and more efficient than `+`. This explains why when concatenating 3 strings `+` is still faster, but it become much slower when concatenation 1000 strings.
+When $N$ is less than 5, `+` will be faster than `str.join()`. However, once $N$ is larger than 5, `str.join()` become more and more efficient than `+`. This explains why when concatenating 3 strings `+` is still faster, but it become much slower when concatenation 1000 strings.
 
 ## Conclusion
 
